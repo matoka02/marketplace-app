@@ -26,6 +26,7 @@
     "*.{ts,tsx}": "npm run lint"
   },
   "scripts": {
+    "prepare": "husky install",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
